@@ -1,9 +1,9 @@
 # Threat-Hunting-THE-AZUKI-BREACH-SAGA-Part-1
 
-# Threat Hunt Capture the Flag — gab-intern-vm
-
-**Author:** Monica Francis — First-time Capture the Flag threat hunt
-**Timeframe Analyzed:** 2025-10-01 - 2025-10-15 UTC
+**Author:** Monica Francis 
+----
+- First Malicious Activity: _2025-11-19 01:36:18 __ (UTC)
+- Last Observed Activity: _2025-11-19 02:45:24 UTC__ (UTC)
 
 ## Quick Flags Reference
 
