@@ -470,6 +470,3 @@ DeviceNetworkEvents
 
 ---
 
-## Analyst Reasoning / Logical Flow
-
-1. 
