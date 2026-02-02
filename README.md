@@ -9,21 +9,26 @@
 
 | Flag | Description | Evidence / Answer |
 |------|-------------|-----------------|
-| 1 | Initial Execution Detection | `` |
-| 2 | Defense Disabling | `` |
-| 3 | Quick Data Probe | `` |
-| 4 | Host Context Recon | `` |
-| 5 | Storage Surface Mapping | `` |
-| 6 | Connectivity & Name Resolution Check | `` |
-| 7 | Interactive Session Discovery | `` |
-| 8 | Runtime Application Inventory | `` |
-| 9 | Privilege Surface Check | `` |
-| 10 | Proof-of-Access & Egress Validation | `` |
-| 11 | Bundling / Staging Artifacts | `` |
-| 12 | Outbound Transfer Attempt (Simulated) | `` |
-| 13 | Scheduled Re-Execution Persistence | `` |
-| 14 | Autorun Fallback Persistence | `` |
-| 15 | Planted Narrative / Cover Artifact | `` |
+| 1 | INITIAL ACCESS - Remote Access Source | `88.97.178.12` |
+| 2 | INITIAL ACCESS - Compromised User Account | `kenji.sato` |
+| 3 | DISCOVERY - Network Reconnaissance | `"ARP.EXE" -a` |
+| 4 | DEFENCE EVASION - Malware Staging Directory | `C:\ProgramData\WindowsCache` |
+| 5 | DEFENCE EVASION - File Extension Exclusions | `3` |
+| 6 | DEFENCE EVASION - Temporary Folder Exclusion | `C:\Users\KENJI~1.SAT\AppData\Local\Temp` |
+| 7 | DEFENCE EVASION - Download Utility Abuse | `Certutil.exe` |
+| 8 | PERSISTENCE - Scheduled Task Name | `Windows Update Check` |
+| 9 | PERSISTENCE - Scheduled Task Target | `C:\ProgramData\WindowsCache\svchost.exe` |
+| 10 | COMMAND & CONTROL - C2 Server Address | `78.141.196.6` |
+| 11 | COMMAND & CONTROL - C2 Communication Port | `443` |
+| 12 | CREDENTIAL ACCESS - Credential Theft Tool | `mm.exe` |
+| 13 | CREDENTIAL ACCESS - Memory Extraction Module | `sekurlsa::logonpasswords` |
+| 14 | COLLECTION - Data Staging Archive | `export-data.zip` |
+| 15 | EXFILTRATION - Exfiltration Channel | `discord` |
+| 16 | ANTI-FORENSICS - Log Tampering | `Security` |
+| 17 | IMPACT - Persistence Account | `support` |
+| 18 | EXECUTION - Malicious Script | `wupdate.ps1` |
+| 19 | LATERAL MOVEMENT - Secondary Target | `10.1.0.188` |
+| 20 | LATERAL MOVEMENT - Remote Access Tool | `mstsc.exe` |
 
 ---
 
